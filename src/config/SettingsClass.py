@@ -20,9 +20,9 @@ class Settings:
                 "stoch": True,
         }
         self.indicatorSettings = {
-                "sma": [{"s1": 1}, {"s2": 2}, {"s3": 3}],
-                "ema": [{"s1": 1}, {"s2": 2}, {"s3": 3}],
-                "rsi": [{"s1": 1}, {"s2": 2}, {"s3": 3}],
+                "sma": [{"window": 50}],
+                "ema": [{"window": 15}] ,
+                "der": [{"window": 180}, {"threshold": 0.32}],
                 "tsi": [{"s1": 1}, {"s2": 2}, {"s3": 3}],
                 "macd": [{"s1": 1}, {"s2": 2}, {"s3": 3}],
                 "stoch":[{"s1": 1}, {"s2": 2}, {"s3": 3}]
