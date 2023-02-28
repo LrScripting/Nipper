@@ -17,5 +17,4 @@ def passedPriceFX(c1, c2, window):
         arr.append(price)
         i-=1
     
-    print(arr)
-    return sum(arr) / len(arr)
+    return arr
